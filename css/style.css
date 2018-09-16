@@ -1,21 +1,65 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 body {
   background-color: #333;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 16px;
 }
-
-.container {
-  margin: 0 auto;
-  width: 420px;
-}
-
 nav {
   margin: 0 auto;
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
 }
+h1 {
+  font-size: 100%;
+  font-weight: 700;
+}
+h3 {
+  font-size: 70%
+}
+.location:hover {
+  background-color: #ffffff;
+  } /* mouse over */
+
+.arrow {
+  display: inline;
+  font-size: 80%;
+  float: right;
+}
+
+.arrow-left {
+  display: block;
+  background-color: #000000;
+  width: 100%;
+  padding: 10px
+}
+
+.container {
+  display: inline-block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.content{
+  display: inline;
+}
+
+.location {
+  display: block;
+  line-height: 120%;
+  background-color: #aaa;
+  padding: 20px;
+  width: 700%;
+  border: .25px solid #333;
+}
 
 .restaurant-list {
-  padding-top: 50px;
+  display: block;
+  background-color: #aaa;
+  margin: 5px 1% 0 1%;
+  height: 200px;
+  width: 20%;
+  text-align: left;
 }
